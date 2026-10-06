@@ -14,13 +14,43 @@
 本文の執筆、日本語の推敲、図表の作成、媒体の整形には、承認された計画を渡します。
 このスキルは、知識移転の設計と説明構成のレビューに単独で使えます。
 
+## Codexへのインストール
+
+### skill-installerを使う
+
+Codexに次のように依頼します。
+
+```text
+$skill-installer を使って、
+https://github.com/naomine-biz/plan-knowledge-transfer
+のスキルをインストールしてください。
+スキルはリポジトリ直下にあります。
+パスは .、インストール名は plan-knowledge-transfer と指定してください。
+```
+
+### 手動で導入する
+
+ユーザー共通のスキルとして使う場合は、次のコマンドで取得します。
+
+```sh
+mkdir -p "$HOME/.agents/skills"
+git clone https://github.com/naomine-biz/plan-knowledge-transfer.git \
+  "$HOME/.agents/skills/plan-knowledge-transfer"
+```
+
+Codexは新しく導入したスキルを自動で検出します。表示されない場合はCodexを再起動してください。
+導入方法と配置先は、[OpenAIのAgent Skillsドキュメント](https://developers.openai.com/codex/skills/)で確認できます。
+
+Codexのプラグイン一覧から導入する形で配布する場合は、[プラグインとしてのパッケージ化](https://developers.openai.com/codex/plugins/build/)が必要です。
+このリポジトリは単独スキルとしてインストールできます。
+
 ## 使い方
 
 [SKILL.md](SKILL.md)を読み込み、テーマと想定読者を指定します。
 たとえば、次のように依頼します。
 
 ```text
-plan-knowledge-transferを使って、分散トランザクションを
+$plan-knowledge-transfer を使って、分散トランザクションを
 現場のエンジニアリーダーへ説明する知識移転計画を作ってください。
 ```
 
