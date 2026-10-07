@@ -1,6 +1,6 @@
 ---
 name: plan-knowledge-transfer
-description: "テーマと想定読者から、Lv5またはLv6の理解へ導く知識移転を設計する。執筆目的を、読者が獲得すべき具体的な理解とそのつながりへ分解し、計画を提示してHumanの承認を得る。説明の計画、構成の組み直し、目的を満たす理解がそろっているかのレビューに使う。"
+description: "テーマと想定読者から、Lv5またはLv6の理解へ導く知識移転を設計する。執筆目的を具体的な理解とそのつながりへ分解し、読者ペルソナの応答から不足を点検して、計画を提示しHumanの承認を得る。説明の計画、構成の組み直し、計画や草稿の読者レビューに使う。"
 ---
 
 # 知識移転の設計
@@ -15,11 +15,11 @@ description: "テーマと想定読者から、Lv5またはLv6の理解へ導く
 1. [thinking-levels.md](references/thinking-levels.md)を読み、目標をLv5かLv6に定める。不明な場合はHumanに確認する。
 2. 書き手がテーマを目標レベルで捉え、全体の関係や成立条件を説明できるよう整理し、読者の到達目標を定める。
 3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達目標を具体的な理解の項目へ分解する。必要な前提と項目間のつながりをそろえ、Lv2から目標まで進む順序と、承認後の制作工程を計画する。
-4. 提示前に[review-checklist.md](references/review-checklist.md)で、執筆目的の充足、理解の粒度とつながり、根拠の確認状況を点検し、不足を直す。
+4. 提示前に[review-checklist.md](references/review-checklist.md)で、執筆目的の充足、理解の粒度とつながり、根拠の確認状況を点検する。[reader-review.md](references/reader-review.md)に従って読者ペルソナによる計画のレビューを行い、目的に必要な不足を直す。
 5. 到達目標を含む短い承認用の要約を先に提示する。理解の項目と確認状況を含む詳細の配置、承認の扱いは計画の資料に従い、承認を得てから本文の執筆工程へ渡す。
 
 計画の設計や説明構成の変更では、上記の資料を読む。
-レビューでは、[review-checklist.md](references/review-checklist.md)に従い、計画や実際の説明が目標の理解につながるかを確認する。レビューだけの依頼に、本文の新規生成を追加しない。
+レビューでは、[review-checklist.md](references/review-checklist.md)に従い、計画や実際の説明が目標の理解につながるかを確認する。読者ペルソナの設定と応答の確認は[reader-review.md](references/reader-review.md)に従い、計画と草稿に合う方法を選ぶ。レビューだけの依頼に、本文の新規生成を追加しない。
 
 ## 執筆工程との接続
 
