@@ -1,12 +1,14 @@
 # plan-knowledge-transfer
 
 テーマと想定読者から、読者をLv5またはLv6の理解へ導く知識移転を設計するスキルです。
+入門書のように読者がテーマの前提知識をもたない場合は、初心者向けモードでLv0から始めてLv1またはLv2へ導きます。
 到達点となる説明を先に作り、その説明を理解するための論理、反例、実証を段階ごとに計画します。
 
 ## 担当すること
 
 - テーマ、想定読者、前提知識、説明が答える問いの整理
 - Lv5のシステム理解、またはLv6の戦略的判断という到達目標の選択
+- 初心者向けモードでの、Lv1の気づき、またはLv2の論理的思考という到達目標の選択
 - 到達点となる説明文と、各段階の論点・例・根拠・つながりを含む計画の作成
 - Humanによる計画の承認
 - 計画や実際の説明構成のレビュー
@@ -83,6 +85,7 @@ $plan-knowledge-transfer を使って、分散トランザクションを
 |---|---|
 | [SKILL.md](SKILL.md) | 入力、成果物、設計手順と執筆工程への受け渡し |
 | [thinking-levels.md](references/thinking-levels.md) | 7段階の定義、目標の選び方、説明の順序 |
+| [beginner-mode.md](references/beginner-mode.md) | 初心者向けモードの目標の選び方、説明の順序、書き方 |
 | [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md) | 計画の項目、材料の扱い、Humanの承認手順 |
 | [review-checklist.md](references/review-checklist.md) | 計画と説明構成のレビュー |
 | [openai.yaml](agents/openai.yaml) | スキル表示と呼び出し用のメタデータ |

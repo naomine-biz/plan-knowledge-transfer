@@ -1,6 +1,6 @@
 ---
 name: plan-knowledge-transfer
-description: "テーマと想定読者から、Lv5またはLv6の理解へ導く知識移転を設計する。到達点の説明を先に作り、各段階の論点・例・根拠・つながりを含む計画を提示してHumanの承認を得る。説明の計画、構成の組み直し、理解に必要な説明がそろっているかのレビューに使う。"
+description: "テーマと想定読者から、Lv5またはLv6の理解へ導く知識移転を設計する。初心者向けモードでは、Lv0から始めてLv1またはLv2へ導く。到達点の説明を先に作り、各段階の論点・例・根拠・つながりを含む計画を提示してHumanの承認を得る。説明の計画、構成の組み直し、理解に必要な説明がそろっているかのレビューに使う。"
 ---
 
 # 知識移転の設計
@@ -10,9 +10,9 @@ description: "テーマと想定読者から、Lv5またはLv6の理解へ導く
 
 ## 設計の手順
 
-1. [thinking-levels.md](references/thinking-levels.md)を読み、目標をLv5かLv6に定める。不明な場合はHumanに確認する。
+1. [thinking-levels.md](references/thinking-levels.md)を読み、目標をLv5かLv6に定める。読者がテーマの前提知識をもたない場合は、[beginner-mode.md](references/beginner-mode.md)の初心者向けモードを使い、目標をLv1かLv2に定める。不明な場合はHumanに確認する。
 2. 書き手がテーマを目標レベルで捉え、そのレベルの説明そのものを先に作る。
-3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達点から必要な前提、論理、反例、実証を洗い出し、Lv2から目標までの説明を計画する。
+3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達点から必要な前提、論理、反例、実証を洗い出し、Lv2から目標までの説明を計画する。初心者向けモードでは、Lv0から目標までの説明を計画する。
 4. 到達点の説明を含む計画を依頼者へ提示する。承認の扱いは同資料に従い、承認を得てから本文の執筆工程へ渡す。
 
 計画の設計や説明構成の変更では、上記の資料を読む。
