@@ -1,4 +1,4 @@
 interface:
   display_name: "知識移転の設計"
-  short_description: "テーマと読者から到達点を定め、論理・反例・実証で理解を進める計画を設計する"
-  default_prompt: "$plan-knowledge-transfer を使い、テーマと想定読者から目標をLv5かLv6に定め、到達点の説明と段階別の知識移転計画を作り、Humanの承認を得るところまで進めてください。"
+  short_description: "テーマと読者から、執筆目的に必要な理解とそのつながりを分解した計画を設計する"
+  default_prompt: "$plan-knowledge-transfer を使い、テーマと想定読者から目標をLv5かLv6に定め、執筆目的を満たす理解を分解した知識移転計画を作り、Humanの承認を得るところまで進めてください。"
