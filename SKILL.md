@@ -10,11 +10,14 @@ description: "テーマと想定読者から、Lv5またはLv6へ導く知識移
 完成条件は、執筆目的に必要な理解と、その前提・つながりがそろっていること。対象分野の網羅性や文章量を完成条件にしない。
 各項目には、その説明を読むことで読者に達成してもらう理解を書く。
 
+計画の構造は、モデルの世界知識（学習済みの知識）と依頼の文脈を起点に作る。
+検索・資料確認は、到達目標に影響する事実を確かめるために使う。確認対象の選び方と確認状況の記録は[knowledge-transfer-plan.md](references/knowledge-transfer-plan.md#世界知識で構造を作り必要な事実を確認する)に従う。
+
 ## 計画の作成手順
 
 1. [thinking-levels.md](references/thinking-levels.md)を読み、目標をLv5かLv6に定める。不明な場合はHumanに確認する。
-2. 計画担当がテーマを目標レベルで捉え、全体の関係と成立条件を整理し、読者の到達目標を定める。
-3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達目標を具体的な理解の項目へ分解する。必要な前提と項目間のつながりをそろえ、Lv2から目標まで進む順序と根拠を計画に示す。
+2. 計画担当が世界知識と依頼の文脈からテーマを目標レベルで捉え、仮の全体像と成立条件を整理し、読者の到達目標を定める。
+3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達目標を具体的な理解の項目へ分解する。前提と項目間のつながりを点検し、必要な事実を確認して、Lv2から目標まで進む順序と確認状況をそろえる。
 4. [review-checklist.md](references/review-checklist.md)で、目的の充足、理解の粒度とつながり、根拠の確認状況を点検する。[reader-review.md](references/reader-review.md)に従って読者ペルソナによる計画の点検を行い、目的に必要な不足を直す。
 5. 到達目標を含む短い承認用の要約と詳細を提示し、計画の承認を求める。承認の扱いは計画の資料に従い、確認状況と承認状態を記録した計画を成果物として終了する。
 
