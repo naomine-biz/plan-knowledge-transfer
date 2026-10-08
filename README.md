@@ -119,7 +119,8 @@ Lv5では、それらをシステム全体の理解へ結び付けます。Lv6�
 
 ### 雨の例の出典
 
-分解を止める粒度の例で使う、冷却・凝結と水循環の関係は、NASA「[The Water Cycle](https://gpm.nasa.gov/education/water-cycle)」を参照しています。
+雨の例は、Lv2の因果の一部分について、分解を止める粒度を示す例です。飽和の意味、温度と水蒸気量の関係、冷却から凝結へ進む条件を具体化しています。
+冷却・凝結と水循環の関係はNASA「[The Water Cycle](https://gpm.nasa.gov/education/water-cycle)」、飽和と冷却による水滴の生成は米国National Weather Service「[Cloud Development](https://www.weather.gov/source/zhu/ZHU_Training_Page/clouds/cloud_development/clouds.htm)」を参照しています。
 
 ## ファイル構成
 
