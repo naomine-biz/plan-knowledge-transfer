@@ -79,21 +79,47 @@ $plan-knowledge-transfer を使い、テーマ・想定読者・執筆目的か�
 
 ## 思考モデルと説明の順序
 
-この7段階は、[深淵回廊の動画「【思考心理学】本当に頭が良い人は何を考えているのか?」](https://www.youtube.com/watch?v=4cCFqBsXZ2E)を参考に、技術的な知識移転の設計用に整理したものです。
-学術的に検証された能力尺度としては扱いません。出典と本スキルでの整理は、[モデルの出典と位置づけ](references/thinking-levels.md#モデルの出典と位置づけ)に記載しています。
-
-| 段階 | 思考の定義 |
-|---|---|
-| Lv0 | 思考しない |
-| Lv1 | 思考が必要であることに気づく |
-| Lv2 | 論理的思考 |
-| Lv3 | 批判的思考 |
-| Lv4 | バイアスを認識している |
-| Lv5 | システム（構造）を認識している |
-| Lv6 | 戦略的である |
+各段階で参照する概念名と、計画での使い方は[thinking-levels.md](references/thinking-levels.md)に記載しています。
+スキル側には、世界知識から意味を特定するための概念名・著者名を置き、出典リンクと借用・再解釈の説明は、このREADMEにまとめています。
 
 計画の順序はLv2から始めます。論理のつながり、条件を変えたときの成立範囲、実例・実データが裏付ける範囲と前提を、理解の項目として具体化します。
 Lv5では、それらをシステム全体の理解へ結び付けます。Lv6を目標にする場合は、組織の選択、実行、見直しの判断に必要な理解まで計画します。
+
+### 7段階の枠組みの出典
+
+この7段階は、深淵回廊の以下の資料を参考に、技術的な知識移転の設計用に整理したものです。
+
+- 直接参考にした資料：[「【思考心理学】本当に頭が良い人は何を考えているのか?」](https://www.youtube.com/watch?v=4cCFqBsXZ2E)（YouTube）
+- 提案者による補足説明：[「【思考心理学】思考力の7段階〜完全版〜」](https://note.com/shinen_kairo/n/nb7db02119df5)（note）
+
+7段階という配置は、提案者が心理学・認知科学の概念を整理した独自のモデルです。学術的に検証された単一の能力尺度としては扱いません。
+
+### 各段階で参照する概念と文献
+
+以下は、各概念の意味を特定するための出典・参考文献です。これらの著者が、このスキルの7段階の配置や知識移転の手順を提唱したという位置づけではありません。
+
+| 段階 | 概念 | 出典・参考文献 |
+|---|---|---|
+| Lv0 | 自動的処理・System 1 | Daniel Kahneman『[Thinking, Fast and Slow](https://us.macmillan.com/books/9780374533557/thinkingfastandslow/)』（2011）。自動的・直感的な処理の参照先。 |
+| Lv1 | 基本的気づき・表面的パターン認識 | 元動画のBasic Awareness / Surface Pattern Recognitionという呼称。独立した理論や特定の著者への対応付けはしていません。 |
+| Lv2 | ロジカルシンキング・論理的推論 | 元動画の表記はFormal Reasoning。推論研究の参考文献として、Philip N. Johnson-Laird「[Mental models and human reasoning](https://www.pnas.org/doi/full/10.1073/pnas.1012933107)」（2010）。 |
+| Lv3 | クリティカルシンキング | Peter A. Facione『[Critical Thinking: A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction](https://eric.ed.gov/fulltext/ed315423.pdf)』（1990、Delphi Report）。 |
+| Lv4 | メタ認知 | John H. Flavell「[Metacognition and Cognitive Monitoring](https://jwilson.coe.uga.edu/EMAT7050/Students/Wilson/Flavell%20(1979).pdf)」（1979）。 |
+| Lv5 | システム思考 | Peter M. Senge『[The Fifth Discipline](https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/)』。元動画でも参照されています。 |
+| Lv6 | 戦略的思考 | Jeanne M. Liedtka「[Strategic Thinking: Can It Be Taught?](https://doi.org/10.1016/S0024-6301(97)00098-8)」（1998、Long Range Planning 31(1), 120–129）。このスキルで追加した参照先です。 |
+
+### このスキルで借用・再解釈したこと
+
+- 段階番号を、元動画のLevel1〜Level7からLv0〜Lv6へ変更しました。定義の表現も、知識移転を計画する用途に合わせて整理しています。
+- Lv0の「思考しない」は、自動的な処理や反応を指す表現として使っています。System 1も認知の働きであり、認知そのものが存在しないという意味にはしていません。
+- Lv4では、メタ認知を、自分が置いた前提・判断・事例選択を点検する役割として使います。実例や実データは、その点検に使う手段として計画します。
+- **Lv6は、元動画の「実行機能と長期的計画」から「戦略的思考」へ変更しました。** 実行機能は、このスキルを使う計画担当が工程全体で担う働きと位置づけています。実行機能の概念はAdele Diamond「[Executive Functions](https://pmc.ncbi.nlm.nih.gov/articles/PMC4084861/)」（2013）を参照しています。
+- このスキルでのLv5とLv6の関係は、システムの動きを理解し、その理解に目的・制約・時間軸・選択を加えて戦略を考える関係です。同じシステム理解からでも、目標や制約に応じた複数の選択を考えられることを、Lv6の到達目標に含めています。
+- Lv2から目標まで理解を積み上げる計画、Lv5のシステム理解またはLv6の組織の戦略的判断を目的とする方針は、本スキルで具体化したものです。
+
+### 雨の例の出典
+
+分解を止める粒度の例で使う、冷却・凝結と水循環の関係は、NASA「[The Water Cycle](https://gpm.nasa.gov/education/water-cycle)」を参照しています。
 
 ## ファイル構成
 

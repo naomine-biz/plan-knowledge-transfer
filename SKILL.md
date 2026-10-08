@@ -16,7 +16,7 @@ description: "テーマと想定読者から、Lv5またはLv6へ導く知識移
 
 ## 計画の作成手順
 
-1. [thinking-levels.md](references/thinking-levels.md)を読み、目標をLv5かLv6に定める。不明な場合はHumanに確認する。
+1. [thinking-levels.md](references/thinking-levels.md)の概念名を基準に各段階の意味を捉え、目標をLv5かLv6に定める。不明な場合はHumanに確認する。
 2. 計画担当が世界知識と依頼の文脈からテーマを目標レベルで捉える。全体像を組み立てられない場合は、資料で調べた題材理解をHumanに提示し、確認を得てから進める。全体の関係と成立条件を基に、読者の到達目標を定める。
 3. [knowledge-transfer-plan.md](references/knowledge-transfer-plan.md)に従い、到達目標を具体的な理解の項目へ分解する。前提と項目間のつながりを点検し、必要な事実を確認して、Lv2から目標まで進む順序と確認状況をそろえる。
 4. [review-checklist.md](references/review-checklist.md)で、目的の充足、理解の粒度とつながり、根拠の確認状況を点検する。[reader-review.md](references/reader-review.md)に従って読者ペルソナによる計画の点検を行い、目的に必要な不足を直す。
