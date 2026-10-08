@@ -77,6 +77,16 @@ $plan-knowledge-transfer を使い、テーマ・想定読者・執筆目的か�
 到達目標と理解の項目を含む計画を提示し、Humanの承認を得て、完成した計画を成果物として終了します。
 承認待ち、修正中、承認済みの状態を区別します。
 
+## 出力サンプル
+
+[サンプル集](examples/README.md)に、二つの承認済み計画と、それぞれをClaude Opus 5.5へ渡して生成した記事を保存しています。
+
+- CTO向け：NoSQLとRDBMSの使い分け戦略（Lv6）。
+- エンジニアリーダー向け：MySQL最新アップデート（Lv5、2026-10-08時点）。
+
+計画の初版、読者ペルソナの点検、指摘の採否、再点検、Humanの承認、執筆時の入力と実行記録も含みます。
+記事の生成は、承認済み計画を使った別工程として実行しています。実際の工程とこのREADMEの使い方の対応は、[工程の照合記録](examples/workflow-consistency.md)で確認できます。
+
 ## 思考モデルと説明の順序
 
 各段階で参照する概念名と、計画での使い方は[thinking-levels.md](references/thinking-levels.md)に記載しています。
@@ -132,3 +142,4 @@ Lv5では、それらをシステム全体の理解へ結び付けます。Lv6�
 | [review-checklist.md](references/review-checklist.md) | 計画の完成条件と不足の点検 |
 | [reader-review.md](references/reader-review.md) | 読者ペルソナによる計画の点検と、分解を止める判断 |
 | [openai.yaml](agents/openai.yaml) | スキル表示と呼び出し用のメタデータ |
+| [examples/README.md](examples/README.md) | 承認済み計画、生成記事、点検と実行の記録 |
