@@ -1,15 +1,17 @@
 # 知識移転計画から執筆する出力サンプル
 
 `plan-knowledge-transfer`で知識移転計画を作り、承認された計画をClaude Opus 5.5へ渡して技術記事を作るサンプル集。
+同じテーマと対象読者をOpus 5.5へ直接指定した比較用の記事も保存している。
 
 ## テーマ
 
-| テーマ | 読者と到達目標 | 承認済み計画 | Opus 5.5の記事 | 点検と修正 |
-|---|---|---|---|---|
-| NoSQLとRDBMSの使い分け戦略 | CTO、Lv6 | [計画](01-nosql-rdbms-strategy/plan.md) | [記事](01-nosql-rdbms-strategy/article-opus-5.5.md) | [指摘の採否](01-nosql-rdbms-strategy/review-resolution.md) |
-| MySQL最新アップデート | エンジニアリーダー、Lv5 | [計画](02-mysql-latest-updates/plan.md) | [記事](02-mysql-latest-updates/article-opus-5.5.md) | [指摘の採否](02-mysql-latest-updates/review-resolution.md) |
+| テーマ | 計画の読者と到達目標 | 承認済み計画 | 計画ありの記事 | 計画なしの記事 | 点検と修正 |
+|---|---|---|---|---|---|
+| NoSQLとRDBMSの使い分け戦略 | CTO、Lv6 | [計画](01-nosql-rdbms-strategy/plan.md) | [記事](01-nosql-rdbms-strategy/article-opus-5.5.md) | [直接依頼の記事](01-nosql-rdbms-strategy/baseline/article-opus-5.5.md) | [指摘の採否](01-nosql-rdbms-strategy/review-resolution.md) |
+| MySQL最新アップデート | エンジニアリーダー、Lv5 | [計画](02-mysql-latest-updates/plan.md) | [記事](02-mysql-latest-updates/article-opus-5.5.md) | [直接依頼の記事](02-mysql-latest-updates/baseline/article-opus-5.5.md) | [指摘の採否](02-mysql-latest-updates/review-resolution.md) |
 
 MySQLの「最新」は2026-10-08に確認した状態を指す。GAの26.7系列を中心に、LTSとEarly Access、配布物に限った更新の違いを計画する。
+[比較の条件と各記事へのリンク](comparison.md)も参照できる。
 
 ## 作成の条件
 
@@ -81,3 +83,29 @@ jq -j '.result' result.json > article-opus-5.5.md
 ```
 
 必要なのは、上記オプションとモデルを利用できる認証済みのClaude CLIである。同じ入力でも生成文章は変わり得るため、保存した記事はこの実行の出力サンプルとして扱う。
+
+## 計画なしの比較サンプル
+
+同じモデル、CLIバージョン、オプションで、テーマと対象読者を直接指定した記事を新しいセッションで各1回生成した。MySQLには、前回と同じ確認日も指定した。
+到達レベル、説明順序、理解項目、読者レビュー、根拠資料は入力に含めていない。
+
+依頼文は次の二つ。各依頼文をそのまま`baseline/input.md`へ保存して標準入力で渡した。
+
+```text
+CTOを対象にした、「NoSQLとRDBMSの使い分け戦略」について、日本語の技術記事を書いてください。
+出力は記事本文だけにしてください。
+```
+
+```text
+エンジニアリーダーを対象にした、2026-10-08時点の「MySQL最新アップデートの紹介」について、日本語の技術記事を書いてください。
+出力は記事本文だけにしてください。
+```
+
+| 計画なしの成果物 | NoSQL / RDBMS | MySQL |
+|---|---|---|
+| 依頼文 `baseline/prompt.md` | [依頼文](01-nosql-rdbms-strategy/baseline/prompt.md) | [依頼文](02-mysql-latest-updates/baseline/prompt.md) |
+| 実際の入力 `baseline/input.md` | [入力](01-nosql-rdbms-strategy/baseline/input.md) | [入力](02-mysql-latest-updates/baseline/input.md) |
+| 生成記事 `baseline/article-opus-5.5.md` | [記事](01-nosql-rdbms-strategy/baseline/article-opus-5.5.md) | [記事](02-mysql-latest-updates/baseline/article-opus-5.5.md) |
+| 実行記録 `baseline/run.json` | [記録](01-nosql-rdbms-strategy/baseline/run.json) | [記録](02-mysql-latest-updates/baseline/run.json) |
+
+再実行には、上記のCLIコマンドへ各`baseline/input.md`の絶対パスを渡す。記事は今回もCLIの返した本文をそのまま保存した。

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "comparison": {
+    "condition": "theme-and-audience-direct-request",
+    "planned_sample_commit": "2dc797e4bb497e0da8445cd585972c0a419728ae",
+    "planned_article": "../article-opus-5.5.md",
+    "planned_run": "../run.json",
+    "plan_provided": false,
+    "source_material_provided": false,
+    "reference_date": null
+  },
+  "execution": {
+    "cli": "claude",
+    "cli_version": "2.1.288.1084",
+    "arguments": [
+      "--safe-mode",
+      "--strict-mcp-config",
+      "--no-session-persistence",
+      "--tools",
+      "",
+      "--disable-slash-commands",
+      "--model",
+      "claude-opus-5-5",
+      "--output-format",
+      "json",
+      "--print"
+    ],
+    "working_directory": "isolated temporary directory outside the repository",
+    "system_instructions": "CLI default system instructions and managed settings",
+    "requested_model": "claude-opus-5-5",
+    "actual_model": "claude-opus-5-5",
+    "canonical_model": "claude-opus-5-5",
+    "provider": "bedrock",
+    "started_at": "2026-10-08T04:44:03Z",
+    "finished_at": "2026-10-08T04:47:23Z",
+    "timestamp_timezone": "UTC",
+    "cli_invocations": 1,
+    "num_turns": 1,
+    "duration_ms": 195811,
+    "duration_api_ms": 195790,
+    "exit_code": 0,
+    "result_type": "result",
+    "result_subtype": "success",
+    "is_error": false,
+    "permission_denials_count": 0,
+    "total_cost_usd": 0.26103800000000005,
+    "cost_basis": "list",
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 1914,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 12573,
+      "thinking_tokens": 5774,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      }
+    }
+  },
+  "input": {
+    "construction": "prompt.md unchanged; UTF-8 bytes passed on stdin",
+    "prompt": {
+      "path": "prompt.md",
+      "sha256": "eb1b2b5edbd9dfc85cecae3c1f9cd1ad839a001faa8aac75e9b244f2f6e5f499"
+    },
+    "full_user_input": {
+      "path": "input.md",
+      "sha256": "eb1b2b5edbd9dfc85cecae3c1f9cd1ad839a001faa8aac75e9b244f2f6e5f499"
+    }
+  },
+  "output": {
+    "path": "article-opus-5.5.md",
+    "sha256": "698da2bc5b46afc7f4bf5256eedd88e9ac992e222a02aa4e97433934162b5a95",
+    "characters": 8030,
+    "extraction": "jq -j .result; UTF-8; no added newline",
+    "edited_after_generation": false
+  }
+}
