@@ -1,4 +1,4 @@
 interface:
   display_name: "知識移転の設計"
   short_description: "テーマと読者から、執筆目的に必要な理解とそのつながりを分解した計画を設計する"
-  default_prompt: "$plan-knowledge-transfer を使い、テーマと想定読者から目標をLv5かLv6に定め、執筆目的を満たす理解を分解した知識移転計画を作り、Humanの承認を得るところまで進めてください。"
+  default_prompt: "$plan-knowledge-transfer を使い、テーマ・想定読者・目的から通常モード（Lv5/Lv6）または初心者モード（Lv1/Lv2）を選び、執筆目的を満たす理解を分解した知識移転計画を作り、Humanの承認を得るところまで進めてください。"
